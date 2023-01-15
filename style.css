@@ -56,6 +56,30 @@
   list-style: none;
 }
 
+.featurescarousel {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.featurescarouselBox {
+  position: relative;
+  width: 80%;
+  height: 100%;
+}
+
+.imgcarousel {
+  width: 100%;
+  height: 400px;
+  background-size: contain;
+  background-position: center;
+}
+
+
+
+
 /* clients */
 .client {
   width: 90%;
@@ -93,6 +117,12 @@ footer img{
 @media all and (min-width: 768px) and (max-width: 992px) {
   .client {
     width: 50%;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .imgcarousel {
+    height: 600px;
   }
 }
 /*============= SECTION =============*/
