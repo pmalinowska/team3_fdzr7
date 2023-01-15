@@ -24,7 +24,7 @@
 
 /* landing */
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/spring.jpg);
   background-size: contain;
 }
 
@@ -90,6 +90,15 @@
 .blockquote {
   width: 90%;
 }
+
+.bi-flower3 {
+  color: green;
+}
+
+.blockquote {
+  color: green;
+}
+
 
 /* contact */
 footer,
