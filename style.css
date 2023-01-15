@@ -1,6 +1,6 @@
 /* navigation */
 .navbar {
-  background-color: black;
+  background-color: rgb(24, 182, 103);
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
@@ -19,7 +19,7 @@
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  color: cadetblue;
+  color: rgb(206, 25, 131);
 }
 
 /* landing */
